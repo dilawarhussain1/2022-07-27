@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body style="text-align:center;" bgcolor="pink">
+    <h1>1st Assignment</h1>
+    Name:<br><input type="text" placeholder="enter your name"><br><br>
+ Years:<br><input type="number" id="totalqza" placeholder="enter years"><br><br>
+    <button onclick=" let qzanmaz=document.getElementById('totalqza').value;
+    let nmaz=qzanmaz*365*5
+    document.getElementById('heading').innerText=nmaz;">totalqzanmaz</button>
+    <h1 id="heading">complate</h1>
+    <h1>2nd Assignment</h1>
+ Name :<br>  <input type="text" placeholder="enter name"><br><br>
+ Totalamount:<br><input type="number" placeholder="enter amount" id="total"><br><br>
+ <button onclick="
+var totalamount=document.getElementById('total').value;
+ let wifeShare=totalamount/8;
+document.getElementById('heading1').innerHTML=wifeShare;
+ ">wife share</button>
+ <button onclick=" var totalamount=document.getElementById('total').value;
+ let sonShare=totalamount/8*7
+document.getElementById('heading2').innerHTML=sonShare;
+ ">sonshare</button>
+ <h1 id="heading1"></h1> 
+ <h1 id="heading2"></h1>
+</body> 
+</html>
